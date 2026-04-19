@@ -1,0 +1,555 @@
+[
+  {
+    "herb": "Ashwagandha",
+    "interactions": [
+      {
+        "drug_class": "thyroid medications",
+        "drug_generic_names": ["levothyroxine", "thyroxine", "liothyronine"],
+        "severity": "moderate",
+        "mechanism": "Ashwagandha stimulates thyroid hormone synthesis and conversion of T4 to T3",
+        "clinical_effect": "May increase thyroid hormone levels beyond therapeutic range, causing hyperthyroid symptoms (palpitations, weight loss, anxiety)",
+        "management": "Monitor thyroid function tests every 4-6 weeks if combining. May need dose reduction of thyroid medication.",
+        "source_pubmed": ["PMID: 28829921"]
+      },
+      {
+        "drug_class": "immunosuppressants",
+        "drug_generic_names": ["cyclosporine", "tacrolimus", "mycophenolate", "azathioprine"],
+        "severity": "moderate",
+        "mechanism": "Ashwagandha potentiates immune system activity via T-cell and NK-cell stimulation",
+        "clinical_effect": "May counteract immunosuppression, risking organ rejection in transplant patients",
+        "management": "Avoid in transplant patients. Consult specialist before use with any immunosuppressant.",
+        "source_pubmed": ["PMID: 19967577"]
+      },
+      {
+        "drug_class": "CNS depressants and sedatives",
+        "drug_generic_names": ["diazepam", "alprazolam", "clonazepam", "zolpidem", "phenobarbital"],
+        "severity": "moderate",
+        "mechanism": "Ashwagandha has GABAergic and CNS depressant properties (withanolides bind GABA receptors)",
+        "clinical_effect": "Enhanced sedation, excessive drowsiness, impaired coordination",
+        "management": "Use with caution. Avoid driving or operating machinery. Consider reducing sedative dose.",
+        "source_pubmed": ["PMID: 21170205"]
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "glipizide", "insulin", "sitagliptin"],
+        "severity": "moderate",
+        "mechanism": "Ashwagandha has hypoglycemic activity through insulin sensitization",
+        "clinical_effect": "Enhanced blood sugar lowering — may cause hypoglycemia",
+        "management": "Monitor blood glucose closely. May allow reduction of antidiabetic medication dose under medical supervision.",
+        "source_pubmed": ["PMID: 25772174"]
+      },
+      {
+        "drug_class": "antihypertensives",
+        "drug_generic_names": ["amlodipine", "enalapril", "losartan", "atenolol", "metoprolol"],
+        "severity": "minor",
+        "mechanism": "Ashwagandha has mild vasodilatory and BP-lowering properties",
+        "clinical_effect": "Additive blood pressure lowering — may cause dizziness or fainting",
+        "management": "Monitor blood pressure. Generally safe but watch for hypotensive symptoms.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Turmeric",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants and antiplatelets",
+        "drug_generic_names": ["warfarin", "heparin", "clopidogrel", "aspirin", "rivaroxaban", "apixaban"],
+        "severity": "major",
+        "mechanism": "Curcumin inhibits platelet aggregation, thromboxane synthesis, and potentiates anticoagulant effects. May also inhibit CYP2C9 which metabolizes warfarin.",
+        "clinical_effect": "Significantly increased bleeding risk — bruising, prolonged bleeding, potentially internal bleeding",
+        "management": "Avoid high-dose turmeric supplements (>500mg curcumin/day) with blood thinners. Dietary turmeric in cooking is generally safe. Monitor INR if on warfarin.",
+        "source_pubmed": ["PMID: 17932127", "PMID: 12680238"]
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "glipizide", "insulin"],
+        "severity": "moderate",
+        "mechanism": "Curcumin improves insulin sensitivity and has hypoglycemic effects",
+        "clinical_effect": "Enhanced blood sugar lowering — hypoglycemia risk",
+        "management": "Monitor blood glucose. Usually beneficial but dose adjustment may be needed.",
+        "source_pubmed": ["PMID: 19930003"]
+      },
+      {
+        "drug_class": "proton pump inhibitors",
+        "drug_generic_names": ["omeprazole", "pantoprazole", "esomeprazole", "rabeprazole"],
+        "severity": "minor",
+        "mechanism": "Turmeric increases stomach acid production and stimulates bile flow",
+        "clinical_effect": "May reduce effectiveness of acid-reducing medications in some cases",
+        "management": "Generally safe in moderate doses. Monitor symptoms.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "chemotherapy agents",
+        "drug_generic_names": ["cyclophosphamide", "doxorubicin", "camptothecin"],
+        "severity": "major",
+        "mechanism": "Curcumin may interfere with chemotherapy by reducing cancer cell sensitivity to drugs through antioxidant mechanisms",
+        "clinical_effect": "May reduce effectiveness of chemotherapy — tumor cells may not be killed properly",
+        "management": "Avoid curcumin supplements during chemotherapy. Discuss with oncologist before use.",
+        "source_pubmed": ["PMID: 17828054"]
+      }
+    ]
+  },
+  {
+    "herb": "Neem",
+    "interactions": [
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "glipizide", "insulin", "pioglitazone"],
+        "severity": "major",
+        "mechanism": "Neem has potent hypoglycemic activity — multiple mechanisms including insulin secretion stimulation and glucose utilization improvement",
+        "clinical_effect": "Severe hypoglycemia — blood sugar may drop dangerously low. Can cause loss of consciousness.",
+        "management": "Do NOT combine with diabetes medications without strict medical supervision. Monitor blood glucose frequently if used together.",
+        "source_pubmed": ["PMID: 20459779"]
+      },
+      {
+        "drug_class": "immunosuppressants",
+        "drug_generic_names": ["cyclosporine", "tacrolimus", "prednisolone"],
+        "severity": "moderate",
+        "mechanism": "Neem stimulates immune function — may counteract immunosuppression",
+        "clinical_effect": "Reduced immunosuppressive effect — risk of organ rejection",
+        "management": "Avoid in transplant patients and those requiring immunosuppression.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "fertility medications",
+        "drug_generic_names": ["clomiphene", "letrozole", "gonadotropins"],
+        "severity": "major",
+        "mechanism": "Neem has documented antifertility effects — may reduce sperm count and motility, disrupt female reproductive cycle",
+        "clinical_effect": "May counteract fertility treatments",
+        "management": "Avoid neem leaf, oil, or extract if trying to conceive or undergoing fertility treatment.",
+        "source_pubmed": ["PMID: 12957455"]
+      }
+    ]
+  },
+  {
+    "herb": "Shankhapushpi",
+    "interactions": [
+      {
+        "drug_class": "antiepileptics",
+        "drug_generic_names": ["phenytoin"],
+        "severity": "major",
+        "mechanism": "Shankhapushpi significantly reduces phenytoin absorption and metabolism — exact mechanism unclear but well-documented in clinical studies",
+        "clinical_effect": "Phenytoin blood levels drop by 30-50% — seizures may return or worsen",
+        "management": "NEVER combine. This is one of the best-documented dangerous herb-drug interactions. If patient is on phenytoin, avoid all shankhapushpi preparations.",
+        "source_pubmed": ["PMID: 1279494", "PMID: 8274745"]
+      },
+      {
+        "drug_class": "antihypertensives",
+        "drug_generic_names": ["atenolol", "amlodipine", "enalapril"],
+        "severity": "minor",
+        "mechanism": "Shankhapushpi has mild hypotensive effects",
+        "clinical_effect": "Additive blood pressure lowering",
+        "management": "Monitor blood pressure. Generally acceptable.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Brahmi",
+    "interactions": [
+      {
+        "drug_class": "antiepileptics",
+        "drug_generic_names": ["phenytoin", "carbamazepine", "valproate", "levetiracetam"],
+        "severity": "moderate",
+        "mechanism": "Brahmi may interact with calcium channels and neurotransmitter systems affecting antiepileptic drug metabolism",
+        "clinical_effect": "May alter antiepileptic drug levels — unpredictable effect on seizure control",
+        "management": "Use with caution. Monitor drug levels and seizure frequency if combining.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "CNS depressants",
+        "drug_generic_names": ["diazepam", "alprazolam", "clonazepam", "phenobarbital"],
+        "severity": "moderate",
+        "mechanism": "Brahmi modulates GABAergic activity and may enhance CNS depression",
+        "clinical_effect": "Enhanced sedation, excessive drowsiness",
+        "management": "Use caution. Avoid in patients requiring alertness. Monitor for excessive sedation.",
+        "source_pubmed": ["PMID: 11498820"]
+      },
+      {
+        "drug_class": "cholinergic medications (Alzheimer's drugs)",
+        "drug_generic_names": ["donepezil", "rivastigmine", "galantamine"],
+        "severity": "moderate",
+        "mechanism": "Brahmi is a cholinesterase inhibitor — additive with anti-Alzheimer drugs",
+        "clinical_effect": "Excessive cholinergic stimulation — nausea, vomiting, bradycardia, muscle cramps",
+        "management": "Avoid combination or reduce dose of one agent. Monitor for cholinergic excess symptoms.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Ginger",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants and antiplatelets",
+        "drug_generic_names": ["warfarin", "aspirin", "clopidogrel", "heparin", "enoxaparin"],
+        "severity": "moderate",
+        "mechanism": "Gingerols inhibit thromboxane synthetase and platelet aggregation. May inhibit CYP450 enzymes affecting warfarin metabolism.",
+        "clinical_effect": "Increased bleeding risk — especially at high ginger doses (>4g/day)",
+        "management": "Culinary amounts safe. Avoid ginger supplements (capsules) with blood thinners. Monitor INR with warfarin.",
+        "source_pubmed": ["PMID: 12230993"]
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "insulin"],
+        "severity": "moderate",
+        "mechanism": "Ginger enhances insulin secretion and sensitivity",
+        "clinical_effect": "Enhanced blood sugar lowering — hypoglycemia risk",
+        "management": "Monitor blood glucose closely. Dietary amounts generally safe.",
+        "source_pubmed": ["PMID: 25230520"]
+      },
+      {
+        "drug_class": "antihypertensives (calcium channel blockers)",
+        "drug_generic_names": ["nifedipine", "amlodipine", "felodipine"],
+        "severity": "moderate",
+        "mechanism": "Ginger inhibits calcium channels — additive with calcium channel blockers",
+        "clinical_effect": "Increased blood pressure lowering effect — dizziness, fainting",
+        "management": "Monitor blood pressure. May need dose adjustment.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "methotrexate",
+        "drug_generic_names": ["methotrexate"],
+        "severity": "moderate",
+        "mechanism": "Ginger may affect renal transport of methotrexate",
+        "clinical_effect": "May increase methotrexate levels and toxicity",
+        "management": "Avoid ginger supplements during methotrexate therapy.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Garlic",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants and antiplatelets",
+        "drug_generic_names": ["warfarin", "aspirin", "clopidogrel", "heparin", "ticlopidine"],
+        "severity": "major",
+        "mechanism": "Allicin and ajoene inhibit platelet aggregation. Garlic may inhibit CYP2C9 increasing warfarin levels.",
+        "clinical_effect": "Significantly increased bleeding risk. Life-threatening with warfarin.",
+        "management": "Avoid garlic supplements with anticoagulants. Culinary amounts generally safe. Monitor INR with warfarin.",
+        "source_pubmed": ["PMID: 10619982"]
+      },
+      {
+        "drug_class": "HIV antiretrovirals (protease inhibitors)",
+        "drug_generic_names": ["saquinavir", "ritonavir", "lopinavir", "indinavir"],
+        "severity": "major",
+        "mechanism": "Garlic strongly induces CYP3A4 and P-glycoprotein — reduces antiretroviral drug levels by 50%+",
+        "clinical_effect": "Dramatically reduced HIV drug levels — HIV may become uncontrolled, drug resistance may develop",
+        "management": "Avoid garlic supplements completely with protease inhibitors.",
+        "source_pubmed": ["PMID: 12162461"]
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "insulin"],
+        "severity": "moderate",
+        "mechanism": "Garlic enhances insulin secretion and reduces blood glucose",
+        "clinical_effect": "Enhanced hypoglycemic effect — risk of low blood sugar",
+        "management": "Monitor blood glucose. Adjust medication dose if needed.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Triphala",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants",
+        "drug_generic_names": ["warfarin", "heparin"],
+        "severity": "moderate",
+        "mechanism": "Triphala contains vitamin K (from amla) which may affect warfarin. Also mild antiplatelet effects.",
+        "clinical_effect": "May alter INR in warfarin patients",
+        "management": "Monitor INR closely if taking Triphala with warfarin.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "insulin"],
+        "severity": "moderate",
+        "mechanism": "Triphala has documented hypoglycemic effects through multiple pathways",
+        "clinical_effect": "Enhanced blood sugar lowering — hypoglycemia risk",
+        "management": "Monitor blood glucose. Generally beneficial but watch for low blood sugar.",
+        "source_pubmed": ["PMID: 21317944"]
+      },
+      {
+        "drug_class": "any oral medications requiring consistent absorption",
+        "drug_generic_names": ["levothyroxine", "warfarin", "digoxin"],
+        "severity": "minor",
+        "mechanism": "Triphala is a laxative — may reduce absorption of other drugs by speeding GI transit",
+        "clinical_effect": "Reduced drug absorption if taken at same time",
+        "management": "Take Triphala 2-3 hours away from other medications.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Tulsi",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants",
+        "drug_generic_names": ["warfarin", "heparin", "clopidogrel"],
+        "severity": "moderate",
+        "mechanism": "Ursolic acid in Tulsi has antiplatelet properties. Also contains vitamin K which may affect warfarin.",
+        "clinical_effect": "Unpredictable effect on warfarin — may increase or decrease anticoagulation",
+        "management": "Monitor INR if taking warfarin with significant amounts of Tulsi.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "insulin"],
+        "severity": "minor",
+        "mechanism": "Tulsi has mild hypoglycemic activity",
+        "clinical_effect": "Mild additive blood sugar lowering",
+        "management": "Monitor blood glucose. Generally safe.",
+        "source_pubmed": ["PMID: 12639638"]
+      },
+      {
+        "drug_class": "barbiturates and sedatives",
+        "drug_generic_names": ["phenobarbital", "diazepam"],
+        "severity": "minor",
+        "mechanism": "Tulsi has mild CNS depressant properties",
+        "clinical_effect": "Mildly enhanced sedation",
+        "management": "Generally safe at dietary amounts. Avoid large medicinal doses with sedatives.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Shatavari",
+    "interactions": [
+      {
+        "drug_class": "diuretics",
+        "drug_generic_names": ["furosemide", "hydrochlorothiazide", "spironolactone"],
+        "severity": "moderate",
+        "mechanism": "Shatavari has mild diuretic properties — additive with diuretic medications",
+        "clinical_effect": "Excessive fluid loss, electrolyte imbalance, dehydration",
+        "management": "Monitor electrolytes and fluid balance.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "hormone therapies",
+        "drug_generic_names": ["estradiol", "norethindrone", "progesterone", "tamoxifen"],
+        "severity": "moderate",
+        "mechanism": "Shatavari contains phytoestrogens (steroidal saponins) that can mimic or modulate estrogen activity",
+        "clinical_effect": "May enhance or compete with hormonal therapies. May reduce tamoxifen effectiveness in estrogen-receptor positive cancers.",
+        "management": "Avoid with hormone-sensitive cancers. Discuss with oncologist before use.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Guduchi",
+    "interactions": [
+      {
+        "drug_class": "immunosuppressants",
+        "drug_generic_names": ["cyclosporine", "tacrolimus", "prednisolone", "methotrexate"],
+        "severity": "moderate",
+        "mechanism": "Guduchi strongly stimulates immunity — directly counteracts immunosuppression",
+        "clinical_effect": "Reduced immunosuppressive effect, risk of autoimmune flares or organ rejection",
+        "management": "Avoid in patients on immunosuppressants.",
+        "source_pubmed": ["PMID: 21390090"]
+      },
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "insulin", "glibenclamide"],
+        "severity": "moderate",
+        "mechanism": "Guduchi lowers blood glucose through multiple mechanisms",
+        "clinical_effect": "Hypoglycemia risk when combined with antidiabetics",
+        "management": "Monitor blood glucose frequently.",
+        "source_pubmed": ["PMID: 15704188"]
+      }
+    ]
+  },
+  {
+    "herb": "Arjuna",
+    "interactions": [
+      {
+        "drug_class": "cardiac glycosides",
+        "drug_generic_names": ["digoxin"],
+        "severity": "major",
+        "mechanism": "Arjuna has cardiac glycoside-like activity and may have additive effects with digoxin on heart rate and contractility",
+        "clinical_effect": "Digoxin toxicity symptoms — nausea, arrhythmias, visual disturbances",
+        "management": "Avoid combination. Monitor digoxin levels closely if used together.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "antihypertensives",
+        "drug_generic_names": ["atenolol", "metoprolol", "amlodipine", "enalapril"],
+        "severity": "moderate",
+        "mechanism": "Arjuna has antihypertensive and cardioprotective effects",
+        "clinical_effect": "Additive blood pressure and heart rate lowering — hypotension, bradycardia",
+        "management": "Monitor BP and heart rate. May require dose reduction of antihypertensive.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "anticoagulants",
+        "drug_generic_names": ["warfarin", "aspirin"],
+        "severity": "minor",
+        "mechanism": "Arjuna has mild antiplatelet properties",
+        "clinical_effect": "Mild increase in bleeding risk",
+        "management": "Monitor INR if on warfarin.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Methi (Fenugreek)",
+    "interactions": [
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "glipizide", "insulin"],
+        "severity": "moderate",
+        "mechanism": "Fenugreek slows glucose absorption and improves insulin sensitivity via 4-hydroxyisoleucine and galactomannan fiber",
+        "clinical_effect": "Enhanced blood sugar lowering — hypoglycemia risk",
+        "management": "Monitor blood glucose closely. Often used beneficially under medical supervision to reduce antidiabetic drug dose.",
+        "source_pubmed": ["PMID: 9358539"]
+      },
+      {
+        "drug_class": "anticoagulants",
+        "drug_generic_names": ["warfarin", "aspirin", "clopidogrel"],
+        "severity": "moderate",
+        "mechanism": "Fenugreek contains coumarin compounds that have anticoagulant activity",
+        "clinical_effect": "Increased bleeding risk",
+        "management": "Monitor INR with warfarin. Avoid large amounts of fenugreek with blood thinners.",
+        "source_pubmed": ["PMID: 15277247"]
+      },
+      {
+        "drug_class": "thyroid medications",
+        "drug_generic_names": ["levothyroxine"],
+        "severity": "minor",
+        "mechanism": "Fenugreek fiber may bind levothyroxine in gut and reduce absorption",
+        "clinical_effect": "Reduced thyroid medication absorption",
+        "management": "Take levothyroxine at least 2 hours before fenugreek.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Karela (Bitter Gourd)",
+    "interactions": [
+      {
+        "drug_class": "antidiabetics",
+        "drug_generic_names": ["metformin", "glibenclamide", "glipizide", "insulin"],
+        "severity": "major",
+        "mechanism": "Karela contains multiple hypoglycemic agents including charantin (insulin-like), momordicin, and polypeptide-p (plant insulin)",
+        "clinical_effect": "Severe hypoglycemia — blood sugar may drop dangerously. Multiple documented cases.",
+        "management": "Very close blood glucose monitoring required. Dose adjustment almost always needed. Avoid if not medically supervised.",
+        "source_pubmed": ["PMID: 8050388"]
+      },
+      {
+        "drug_class": "hepatotoxic drugs",
+        "drug_generic_names": ["isoniazid", "rifampicin", "statins"],
+        "severity": "moderate",
+        "mechanism": "High doses of karela may have hepatotoxic effects — additive with other liver-affecting drugs",
+        "clinical_effect": "Increased liver toxicity risk",
+        "management": "Avoid high-dose karela extracts with hepatotoxic medications. Monitor liver function.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Mulethi (Licorice)",
+    "interactions": [
+      {
+        "drug_class": "antihypertensives",
+        "drug_generic_names": ["enalapril", "lisinopril", "amlodipine", "losartan", "atenolol"],
+        "severity": "major",
+        "mechanism": "Glycyrrhizin causes pseudoaldosteronism — sodium retention, potassium loss, water retention — raising blood pressure",
+        "clinical_effect": "High blood pressure, edema, reduced effectiveness of antihypertensives",
+        "management": "Avoid licorice supplements with antihypertensives. Deglycyrrhizinated licorice (DGL) is safer.",
+        "source_pubmed": ["PMID: 2891423"]
+      },
+      {
+        "drug_class": "diuretics",
+        "drug_generic_names": ["furosemide", "hydrochlorothiazide", "spironolactone"],
+        "severity": "moderate",
+        "mechanism": "Licorice causes potassium loss — additive hypokalemia with potassium-wasting diuretics",
+        "clinical_effect": "Severe potassium depletion — muscle weakness, cardiac arrhythmias",
+        "management": "Avoid licorice root supplements with loop or thiazide diuretics.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "corticosteroids",
+        "drug_generic_names": ["prednisolone", "dexamethasone", "hydrocortisone", "betamethasone"],
+        "severity": "moderate",
+        "mechanism": "Glycyrrhizin inhibits 11β-hydroxysteroid dehydrogenase — enhances and prolongs corticosteroid effects",
+        "clinical_effect": "Cushing's syndrome-like effects — moon face, weight gain, high blood pressure, diabetes",
+        "management": "Avoid combination. If needed, use DGL form.",
+        "source_pubmed": ["PMID: 6338764"]
+      },
+      {
+        "drug_class": "digoxin",
+        "drug_generic_names": ["digoxin"],
+        "severity": "major",
+        "mechanism": "Licorice-induced hypokalemia increases sensitivity of heart to digoxin toxicity",
+        "clinical_effect": "Digoxin toxicity at normal doses — nausea, arrhythmias, vision changes",
+        "management": "Avoid licorice with digoxin.",
+        "source_pubmed": []
+      }
+    ]
+  },
+  {
+    "herb": "Guggul",
+    "interactions": [
+      {
+        "drug_class": "thyroid medications",
+        "drug_generic_names": ["levothyroxine", "methimazole"],
+        "severity": "moderate",
+        "mechanism": "Guggul stimulates thyroid gland and increases T3/T4 levels",
+        "clinical_effect": "May raise thyroid levels — risk of hyperthyroid symptoms or reduced methimazole effectiveness",
+        "management": "Monitor thyroid function tests. May need dose adjustments.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "anticoagulants",
+        "drug_generic_names": ["warfarin", "aspirin"],
+        "severity": "moderate",
+        "mechanism": "Guggulsterones have antiplatelet and anticoagulant properties",
+        "clinical_effect": "Increased bleeding risk",
+        "management": "Monitor INR with warfarin. Caution with other blood thinners.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "statins (cholesterol drugs)",
+        "drug_generic_names": ["atorvastatin", "rosuvastatin", "simvastatin"],
+        "severity": "moderate",
+        "mechanism": "Guggul may induce CYP3A4 — reducing statin levels. Also has own cholesterol-lowering effect.",
+        "clinical_effect": "Reduced statin effectiveness. But combined cholesterol-lowering may cause additive myopathy risk.",
+        "management": "Monitor cholesterol levels. Inform doctor if combining.",
+        "source_pubmed": ["PMID: 14519862"]
+      }
+    ]
+  },
+  {
+    "herb": "Kalmegh (Andrographis)",
+    "interactions": [
+      {
+        "drug_class": "anticoagulants and antiplatelets",
+        "drug_generic_names": ["warfarin", "aspirin", "clopidogrel"],
+        "severity": "moderate",
+        "mechanism": "Andrographolide inhibits platelet activating factor and platelet aggregation",
+        "clinical_effect": "Increased bleeding risk",
+        "management": "Avoid with anticoagulants. Monitor INR with warfarin.",
+        "source_pubmed": ["PMID: 24130638"]
+      },
+      {
+        "drug_class": "immunosuppressants",
+        "drug_generic_names": ["cyclosporine", "tacrolimus"],
+        "severity": "moderate",
+        "mechanism": "Andrographis is a potent immunostimulant",
+        "clinical_effect": "May counteract immunosuppressive therapy",
+        "management": "Avoid in transplant patients.",
+        "source_pubmed": []
+      },
+      {
+        "drug_class": "antihypertensives",
+        "drug_generic_names": ["atenolol", "amlodipine", "enalapril"],
+        "severity": "minor",
+        "mechanism": "Andrographis has mild hypotensive activity",
+        "clinical_effect": "Additive blood pressure lowering",
+        "management": "Monitor blood pressure.",
+        "source_pubmed": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "nutrient1": "calcium",
+    "nutrient2": "iron",
+    "interaction_type": "absorption_block",
+    "effect": "Calcium (especially from supplements or dairy) significantly reduces non-heme iron absorption when taken together",
+    "management": "Take iron supplements 2 hours before or after calcium supplements or dairy"
+  },
+  {
+    "nutrient1": "zinc",
+    "nutrient2": "iron",
+    "interaction_type": "competitive_uptake",
+    "effect": "High doses of zinc reduce iron absorption. High doses of iron reduce zinc absorption.",
+    "management": "Take zinc and iron supplements at different times of day. Do not take high doses of both simultaneously."
+  },
+  {
+    "nutrient1": "zinc",
+    "nutrient2": "copper",
+    "interaction_type": "competitive_uptake",
+    "effect": "High zinc intake (>40mg/day) depletes copper stores over time, causing copper deficiency anemia and neurological issues",
+    "management": "If taking zinc supplements >25mg/day, also supplement 1-2mg copper per 15mg zinc"
+  },
+  {
+    "nutrient1": "vitamin D",
+    "nutrient2": "calcium",
+    "interaction_type": "synergistic",
+    "effect": "Vitamin D is essential for calcium absorption. Without adequate vitamin D, calcium from food and supplements is poorly absorbed.",
+    "management": "Take together for best effect. Most calcium supplements now include vitamin D3."
+  },
+  {
+    "nutrient1": "vitamin C",
+    "nutrient2": "iron",
+    "interaction_type": "absorption_enhancer",
+    "effect": "Vitamin C converts non-heme iron to a more absorbable form, increasing absorption up to 3-fold",
+    "management": "Take vitamin C alongside iron-rich foods or supplements to maximize absorption"
+  },
+  {
+    "nutrient1": "magnesium",
+    "nutrient2": "calcium",
+    "interaction_type": "competitive_uptake",
+    "effect": "High calcium intake can reduce magnesium absorption. Ideal calcium:magnesium ratio is 2:1.",
+    "management": "Balance calcium and magnesium intake. Take at different times if taking large supplement doses."
+  },
+  {
+    "nutrient1": "vitamin K",
+    "nutrient2": "vitamin D",
+    "interaction_type": "synergistic",
+    "effect": "Vitamin D increases calcium absorption, vitamin K2 directs calcium to bones. Both needed for bone health and to prevent arterial calcification.",
+    "management": "Take vitamin D3 with vitamin K2 (MK-7 form) for optimal bone and cardiovascular benefit"
+  },
+  {
+    "nutrient1": "fat-soluble vitamins (A D E K)",
+    "nutrient2": "omega-3 fish oil",
+    "interaction_type": "absorption_enhancer",
+    "effect": "Fat-soluble vitamins absorb better when taken with dietary fat. Fish oil provides the fat needed for absorption.",
+    "management": "Take vitamins A, D, E, K with a meal containing fat or with fish oil capsules"
+  },
+  {
+    "nutrient1": "iron",
+    "nutrient2": "vitamin E",
+    "interaction_type": "oxidation_conflict",
+    "effect": "Iron and vitamin E can oxidize each other when taken together, reducing the effectiveness of both",
+    "management": "Take iron and vitamin E at least 4 hours apart"
+  },
+  {
+    "nutrient1": "folate",
+    "nutrient2": "zinc",
+    "interaction_type": "absorption_block",
+    "effect": "Very high folate intake may reduce zinc absorption",
+    "management": "Avoid taking very high folic acid doses (>1mg/day) with zinc supplements"
+  },
+  {
+    "nutrient1": "calcium",
+    "nutrient2": "magnesium",
+    "interaction_type": "absorption_block",
+    "effect": "Large doses of calcium inhibit magnesium absorption by competing for the same transporters",
+    "management": "Take calcium and magnesium at different times if taking high doses of both"
+  },
+  {
+    "nutrient1": "vitamin B12",
+    "nutrient2": "folate",
+    "interaction_type": "synergistic",
+    "effect": "B12 and folate work together in methylation. Deficiency of one masks deficiency of the other and both are needed for RBC formation.",
+    "management": "Take together. Especially important in pregnancy to prevent neural tube defects."
+  }
+]

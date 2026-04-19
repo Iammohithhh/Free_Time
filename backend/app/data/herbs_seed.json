@@ -1,0 +1,252 @@
+[
+  {
+    "common_name_en": "Ashwagandha",
+    "common_name_hi": "अश्वगंधा",
+    "common_name_kn": "ಅಶ್ವಗಂಧ",
+    "common_name_te": "అశ్వగంధ",
+    "sanskrit_name": "Ashvagandha",
+    "botanical_name": "Withania somnifera",
+    "active_compounds": ["withanolides", "alkaloids", "saponins", "lactones"],
+    "traditional_use": "Adaptogen, stress relief, energy, immunity, sexual health"
+  },
+  {
+    "common_name_en": "Turmeric",
+    "common_name_hi": "हल्दी",
+    "common_name_kn": "ಅರಿಶಿಣ",
+    "common_name_te": "పసుపు",
+    "sanskrit_name": "Haridra",
+    "botanical_name": "Curcuma longa",
+    "active_compounds": ["curcumin", "demethoxycurcumin", "bisdemethoxycurcumin", "turmerone"],
+    "traditional_use": "Anti-inflammatory, antiseptic, digestion, skin health"
+  },
+  {
+    "common_name_en": "Neem",
+    "common_name_hi": "नीम",
+    "common_name_kn": "ಬೇವು",
+    "common_name_te": "వేప",
+    "sanskrit_name": "Nimba",
+    "botanical_name": "Azadirachta indica",
+    "active_compounds": ["azadirachtin", "nimbin", "nimbidin", "quercetin"],
+    "traditional_use": "Antibacterial, antifungal, blood purifier, skin diseases, diabetes"
+  },
+  {
+    "common_name_en": "Shankhapushpi",
+    "common_name_hi": "शंखपुष्पी",
+    "common_name_kn": "ಶಂಖಪುಷ್ಪಿ",
+    "common_name_te": "శంఖపుష్పి",
+    "sanskrit_name": "Shankhapushpi",
+    "botanical_name": "Convolvulus pluricaulis",
+    "active_compounds": ["shankhapushpine", "convolamine", "scopoletin", "kaempferol"],
+    "traditional_use": "Brain tonic, memory, anxiety, epilepsy, thyroid"
+  },
+  {
+    "common_name_en": "Brahmi",
+    "common_name_hi": "ब्राह्मी",
+    "common_name_kn": "ಬ್ರಾಹ್ಮಿ",
+    "common_name_te": "బ్రహ్మి",
+    "sanskrit_name": "Brahmi",
+    "botanical_name": "Bacopa monnieri",
+    "active_compounds": ["bacosides A and B", "brahmine", "herpestine", "alkaloids"],
+    "traditional_use": "Memory enhancement, anxiety, ADHD, epilepsy"
+  },
+  {
+    "common_name_en": "Triphala",
+    "common_name_hi": "त्रिफला",
+    "common_name_kn": "ತ್ರಿಫಲ",
+    "common_name_te": "త్రిఫల",
+    "sanskrit_name": "Triphala",
+    "botanical_name": "Terminalia chebula + Terminalia bellirica + Phyllanthus emblica",
+    "active_compounds": ["chebulagic acid", "ellagic acid", "gallic acid", "vitamin C"],
+    "traditional_use": "Digestive tonic, constipation, detox, eye health, immunity"
+  },
+  {
+    "common_name_en": "Tulsi",
+    "common_name_hi": "तुलसी",
+    "common_name_kn": "ತುಳಸಿ",
+    "common_name_te": "తులసి",
+    "sanskrit_name": "Tulasi",
+    "botanical_name": "Ocimum tenuiflorum",
+    "active_compounds": ["eugenol", "ursolic acid", "rosmarinic acid", "carvacrol", "linalool"],
+    "traditional_use": "Respiratory, immunity, stress, antibacterial, fever"
+  },
+  {
+    "common_name_en": "Ginger",
+    "common_name_hi": "अदरक",
+    "common_name_kn": "ಶುಂಠಿ",
+    "common_name_te": "అల్లం",
+    "sanskrit_name": "Sunthi",
+    "botanical_name": "Zingiber officinale",
+    "active_compounds": ["gingerols", "shogaols", "paradols", "zingerone"],
+    "traditional_use": "Nausea, digestion, anti-inflammatory, joint pain, cold/flu"
+  },
+  {
+    "common_name_en": "Garlic",
+    "common_name_hi": "लहसुन",
+    "common_name_kn": "ಬೆಳ್ಳುಳ್ಳಿ",
+    "common_name_te": "వెల్లుల్లి",
+    "sanskrit_name": "Lashuna",
+    "botanical_name": "Allium sativum",
+    "active_compounds": ["allicin", "alliin", "diallyl disulfide", "ajoene", "quercetin"],
+    "traditional_use": "Heart health, blood pressure, antibacterial, antifungal, immunity"
+  },
+  {
+    "common_name_en": "Shatavari",
+    "common_name_hi": "शतावरी",
+    "common_name_kn": "ಶತಾವರಿ",
+    "common_name_te": "శతావరి",
+    "sanskrit_name": "Shatavari",
+    "botanical_name": "Asparagus racemosus",
+    "active_compounds": ["shatavarins", "saponins", "asparagamine", "sarsapogenin"],
+    "traditional_use": "Female reproductive health, menopause, lactation, immunity, ulcers"
+  },
+  {
+    "common_name_en": "Guduchi",
+    "common_name_hi": "गुडुची",
+    "common_name_kn": "ಅಮೃತಬಳ್ಳಿ",
+    "common_name_te": "తిప్పతీగ",
+    "sanskrit_name": "Guduchi",
+    "botanical_name": "Tinospora cordifolia",
+    "active_compounds": ["tinosporine", "berberine", "palmatine", "tinosporaside", "giloin"],
+    "traditional_use": "Immunity, fever, diabetes, liver health, anti-inflammatory"
+  },
+  {
+    "common_name_en": "Arjuna",
+    "common_name_hi": "अर्जुन",
+    "common_name_kn": "ಅರ್ಜುನ",
+    "common_name_te": "అర్జున",
+    "sanskrit_name": "Arjuna",
+    "botanical_name": "Terminalia arjuna",
+    "active_compounds": ["arjunolic acid", "arjunetin", "arjunin", "tannins", "glycosides"],
+    "traditional_use": "Heart health, cardiac tonic, blood pressure, cholesterol"
+  },
+  {
+    "common_name_en": "Methi (Fenugreek)",
+    "common_name_hi": "मेथी",
+    "common_name_kn": "ಮೆಂತ್ಯ",
+    "common_name_te": "మెంతులు",
+    "sanskrit_name": "Methika",
+    "botanical_name": "Trigonella foenum-graecum",
+    "active_compounds": ["4-hydroxyisoleucine", "diosgenin", "trigonelline", "galactomannan"],
+    "traditional_use": "Diabetes, cholesterol, breast milk production, digestion"
+  },
+  {
+    "common_name_en": "Karela (Bitter Gourd)",
+    "common_name_hi": "करेला",
+    "common_name_kn": "ಹಾಗಲಕಾಯಿ",
+    "common_name_te": "కాకరకాయ",
+    "sanskrit_name": "Karavellaka",
+    "botanical_name": "Momordica charantia",
+    "active_compounds": ["momordicin", "charantin", "polypeptide-p", "vicine"],
+    "traditional_use": "Diabetes, blood sugar control, liver, immunity"
+  },
+  {
+    "common_name_en": "Mulethi (Licorice)",
+    "common_name_hi": "मुलेठी",
+    "common_name_kn": "ಇರಟ್ಟಿಮಧುರ",
+    "common_name_te": "అతిమధురం",
+    "sanskrit_name": "Yashtimadhu",
+    "botanical_name": "Glycyrrhiza glabra",
+    "active_compounds": ["glycyrrhizin", "glycyrrhizinic acid", "liquiritigenin", "isoliquiritigenin"],
+    "traditional_use": "Respiratory, ulcers, anti-inflammatory, adrenal support"
+  },
+  {
+    "common_name_en": "Amalaki (Indian Gooseberry)",
+    "common_name_hi": "आंवला",
+    "common_name_kn": "ನೆಲ್ಲಿಕಾಯಿ",
+    "common_name_te": "ఉసిరికాయ",
+    "sanskrit_name": "Amalaki",
+    "botanical_name": "Phyllanthus emblica",
+    "active_compounds": ["ascorbic acid", "emblicanin A and B", "punigluconin", "pedunculagin"],
+    "traditional_use": "Vitamin C, immunity, hair, skin, digestion, anti-aging"
+  },
+  {
+    "common_name_en": "Haritaki",
+    "common_name_hi": "हरड़",
+    "common_name_kn": "ಅಳಲೆ",
+    "common_name_te": "కరక్కాయ",
+    "sanskrit_name": "Haritaki",
+    "botanical_name": "Terminalia chebula",
+    "active_compounds": ["chebulagic acid", "chebulinic acid", "gallic acid", "ellagic acid"],
+    "traditional_use": "Digestion, constipation, detox, anti-inflammatory, diabetes"
+  },
+  {
+    "common_name_en": "Triphala Guggul",
+    "common_name_hi": "गुग्गुल",
+    "common_name_kn": "ಗುಗ್ಗುಳು",
+    "common_name_te": "గుగ్గులు",
+    "sanskrit_name": "Guggulu",
+    "botanical_name": "Commiphora wightii",
+    "active_compounds": ["guggulsterones E and Z", "guggulipid", "myrrhanol"],
+    "traditional_use": "Cholesterol, weight, thyroid, joint inflammation, arthritis"
+  },
+  {
+    "common_name_en": "Pippali (Long Pepper)",
+    "common_name_hi": "पिप्पली",
+    "common_name_kn": "ಹಿಪ್ಪಲಿ",
+    "common_name_te": "పిప్పలి",
+    "sanskrit_name": "Pippali",
+    "botanical_name": "Piper longum",
+    "active_compounds": ["piperine", "piperlonguminine", "sesamin", "methyl piperate"],
+    "traditional_use": "Respiratory, bioavailability enhancer, digestion, anti-inflammatory"
+  },
+  {
+    "common_name_en": "Bhringraj",
+    "common_name_hi": "भृंगराज",
+    "common_name_kn": "ಗರಿಕೆ",
+    "common_name_te": "గుంటగలగర",
+    "sanskrit_name": "Bhringaraja",
+    "botanical_name": "Eclipta prostrata",
+    "active_compounds": ["wedelolactone", "ecliptine", "stigmasterol", "wedelic acid"],
+    "traditional_use": "Hair growth, liver health, jaundice, skin"
+  },
+  {
+    "common_name_en": "Punarnava",
+    "common_name_hi": "पुनर्नवा",
+    "common_name_kn": "ಸಂದ್ರಿಕ",
+    "common_name_te": "గడ్డిపుణుక",
+    "sanskrit_name": "Punarnava",
+    "botanical_name": "Boerhavia diffusa",
+    "active_compounds": ["punarnavoside", "boeravinone", "punarnavine", "xanthones"],
+    "traditional_use": "Kidney health, diuretic, edema, liver, urinary tract"
+  },
+  {
+    "common_name_en": "Kutki",
+    "common_name_hi": "कुटकी",
+    "common_name_kn": "ಕಟ್ಟಿ",
+    "common_name_te": "కటుకి",
+    "sanskrit_name": "Katuka",
+    "botanical_name": "Picrorhiza kurroa",
+    "active_compounds": ["kutkin", "picroside I and II", "kutkoside", "apocynin"],
+    "traditional_use": "Liver, jaundice, fever, digestive disorders"
+  },
+  {
+    "common_name_en": "Vidari",
+    "common_name_hi": "विदारी",
+    "common_name_kn": "ಗೆಣಸು",
+    "common_name_te": "దొండపాల",
+    "sanskrit_name": "Vidari",
+    "botanical_name": "Ipomoea mauritiana",
+    "active_compounds": ["diosgenin", "taraxerol", "b-sitosterol"],
+    "traditional_use": "Energy, reproductive health, lactation, muscle building"
+  },
+  {
+    "common_name_en": "Kalmegh",
+    "common_name_hi": "कालमेघ",
+    "common_name_kn": "ನೆಲವೇಪ",
+    "common_name_te": "నేలవేప",
+    "sanskrit_name": "Kalamegh",
+    "botanical_name": "Andrographis paniculata",
+    "active_compounds": ["andrographolide", "deoxyandrographolide", "neoandrographolide"],
+    "traditional_use": "Immunity, liver, fever, viral infections, anti-inflammatory"
+  },
+  {
+    "common_name_en": "Kesar (Saffron)",
+    "common_name_hi": "केसर",
+    "common_name_kn": "ಕೇಸರಿ",
+    "common_name_te": "కుంకుమ పువ్వు",
+    "sanskrit_name": "Kumkuma",
+    "botanical_name": "Crocus sativus",
+    "active_compounds": ["crocin", "crocetin", "safranal", "picrocrocin"],
+    "traditional_use": "Mood, depression, antioxidant, skin, memory"
+  }
+]
